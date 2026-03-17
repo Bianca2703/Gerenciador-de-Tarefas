@@ -2,8 +2,10 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:6366f1&height=200&section=header&text=Gerenciador%20de%20Tarefas%20e%20Projetos&fontSize=40&fontColor=ffffff"/>
 </p>
 
-# Gerenciador de Tarefas e Projetos (Versão com API)
+# Gerenciador de Tarefas e Projetos (LocalStorage)
 > ⚠️ Este é um projeto inicial utilizando LocalStorage.
+
+> Esta versão utiliza apenas LocalStorage para armazenamento dos dados no navegador.
 
 👉 Confira a versão mais completa (com API):
 https://github.com/Bianca2703/Gerenciador-de-Tarefas-Web-Service
@@ -16,8 +18,6 @@ Projeto desenvolvido como trabalho final do curso de Desenvolvimento Front-End c
 - **Feitos** – exibe o histórico de tarefas concluídas
 - **Sobre** – exibe informações sobre a aplicação
 - **Estatísticas** – apresenta estatísticas sobre tarefas e projetos
-
-Além disso, o projeto utiliza um Back-End simulado com a biblioteca JSON Server, para fins de aprendizado sobre APIs e Web Services.
 
 ## Tecnologias
 
@@ -65,7 +65,7 @@ src
 1. Clone o repositório
 
 ```
-git clone https://github.com/Bianca2703/Gerenciador-de-Tarefas-Web-Service.git
+git clone https://github.com/Bianca2703/Gerenciador-de-Tarefas.git
 ```
 
 2. Entre na pasta do projeto
@@ -87,23 +87,14 @@ npm install
 npm run dev
 ```
 
-5. Em outro terminal, execute o backend simulado
-
-```
-npm run backend
-```
-
 ## Deploy
 
 Acesse a aplicação:  
-[https://gerenciador-de-tarefas-web-service.vercel.app](https://gerenciador-de-tarefas-web-service.vercel.app/)
-
-⚠️ Observação: este projeto utiliza um backend simulado com JSON Server executado localmente.
-Por isso, algumas funcionalidades que dependem da API podem não funcionar corretamente na versão publicada.
+[https://gerenciador-de-tarefas-nu-sepia.vercel.app](https://gerenciador-de-tarefas-nu-sepia.vercel.app/)
 
 ## Objetivo
 
-Este projeto foi desenvolvido com o objetivo de desenvolver e aprimorar meus conhecimentos em React e seus conceitos como componentes, hooks, Context API, rotas e gerenciamento de estado, além de noções de frameworks com Tailwind CSS e noções de Web Services.
+Este projeto foi desenvolvido com o objetivo de desenvolver e aprimorar meus conhecimentos em React e seus conceitos como componentes, hooks, rotas e gerenciamento de estado, além de frameworks com Tailwind CSS.
 
 ## 👩‍💻Autora
 
